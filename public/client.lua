@@ -2,7 +2,7 @@ RegisterCommand('scoreboard', function()
     TriggerEvent('mm_scoreboard:client:toggle')
 end, false)
 
-RegisterKeyMapping('scoreboard', 'Open Scoreboard', 'keyboard', 'Y') -- customizable, here value is Y
+RegisterKeyMapping('scoreboard', 'Open Scoreboard', 'keyboard', 'U') -- customizable, here value is Y
 
 RegisterCommand('robberies', function()
     TriggerEvent('mm_scoreboard:client:toggleRobbery')
